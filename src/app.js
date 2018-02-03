@@ -9,7 +9,8 @@ import Website, {history} from './routers/AppRouter';
 import {login, logout} from './actions/auth';
 import 'react-dates/lib/css/_datepicker.css';
 import {firebase} from './firebase/firebase';
-import LoadingPage from './components/loadingPage'
+import LoadingPage from './components/loadingPage';
+import moment from 'moment';
 
 const store = configureStore();
 
